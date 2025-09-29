@@ -1,7 +1,7 @@
 const presenca = [true, false, true, true, true, false, false, true, true, true, true, false, true, true, false, false, false, true, true, false];
 
 function saberFrequencia(frequencia) {
-    let totalAulas = frequencia.length;
+    let totalAulas = presenca.length;
     let presencas = 0;
 
     for (let i = 0; i < frequencia.length; i++) {
@@ -18,3 +18,4 @@ function saberFrequencia(frequencia) {
 }
 
 saberFrequencia(presenca);
+
