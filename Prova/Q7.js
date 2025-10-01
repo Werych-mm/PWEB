@@ -32,4 +32,5 @@ produtos = [
         console.log(`O produto ${item.Produto}, foi vendido por ${item.Com_desconto}`);
     }
 
-    console.log(`O total das foi ${total}R$`)
+
+    console.log(`O total das compras foi ${total}R$`)
