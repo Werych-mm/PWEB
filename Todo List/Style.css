@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    border-bottom: 1px solid #E7E5FF;
+}
+
+.headerconteiner {
+    height: 80px;
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titulo {
+    color: #7063F0;
+}
+
+main {
+    margin-top: 30px;
+}
+
+.divmain {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.addtarefa {
+    color: #555555;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+input[type = "text"] {
+    display: flex;
+    flex: 1;
+    height: 60px;
+    padding-left: 10px;
+    border: 1px solid #7063F0;
+    border-radius: 10px;
+    background-color: #D7D3FF;
+    color: #7063F0;
+}
+
+#pedir_tarefa::placeholder {
+    margin-left: 10px;
+    color: #7063F0;
+}
+
+.butcon {
+    width: 130px;
+    height: 60px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #7063F0;
+    color: #FFF;
+    cursor: pointer;
+}
+    
+.sepmain {
+    margin-top: 25px;
+    max-width: 990px;
+    border: 1px solid #E7E5FF;
+}
+
+.sowtarefs {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.counter {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.concluida {
+    color: #02AF75;
+}
+
+.sowh3 {
+    color: #2D2D2D;
+}
+
+.sowp {
+    color: #555555;
+}
+
+.divfim {
+    margin: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.emoji {
+    font-size: 3rem;
+    line-height: 1; 
+}
+
+.fim {
+    margin-top: 5px;
+}
+
+.tarefabaixo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 18px;
+    background-color: #D7D3FF;
+    border: 1px solid #7063F0;
+    border-radius: 13px;
+}
+
+.tarefaconteudo {
+    display: flex;
+    align-items: center;
+}
+
+input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 22px;
+    height: 22px;
+    border: 2px solid #7063F0; 
+    background-color: #FFF;
+    border-radius: 7px;
+    margin-right: 20px;
+    cursor: pointer;
+    position: relative;
+}
+
+input[type="checkbox"]:checked {
+    background-color: #02AF75;
+    border: 2px solid #00895c;
+}
+
+input[type="checkbox"]:checked::after {
+    content: "";
+    position: absolute;
+    left: 7px;
+    top: 2px;
+    width: 4px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+.tarefatexto h4 {
+    font-weight: 500;
+    font-size: 18px;
+    color: #7063F0;
+}
+
+.tarefatexto p {
+    color: #555555;
+}
+
+
